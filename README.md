@@ -8,11 +8,6 @@ Sure! Here is the entire README in Markdown format:
 
 This repository contains the work for the Applied Statistics course at the University of Galway. The project is organized into various files and folders to meet the course requirements. Below is an explanation of the contents and structure of the repository.
 
-## Repository Structure
-
-Applied-Statistics-Assignment/ ├── task.ipynb # Jupyter Notebook containing tasks as required by the assignment. ├── project.ipynb # Jupyter Notebook containing the project work as required by the assignment. ├── .gitignore # Git ignore file to avoid committing unnecessary files. ├── images/ # Folder containing images referenced in the Jupyter notebooks. │ └── image1.png # Example image used in the task. │ └── image2.png # Example image used in the project. ├── dataset/ # Folder containing the dataset(s) used in the project. │ └── data.csv # Dataset used for analysis in the project. ├── requirements.txt # Python dependencies required to run the notebooks.
-
-
 ### Files and Folders Overview
 
 1. **task.ipynb**  
