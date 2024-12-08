@@ -1,4 +1,4 @@
-=======
+
 # Applied Statistics Assignment - Higher Diploma in Science in Computing (Data Analytics)
 
 This repository contains the solution to the Applied Statistics assignment for the course *Higher Diploma in Science in Computing (Data Analytics)*, delivered by the Applied Technology Unit (ATU) of Galway. The assignment consists of multiple tasks related to statistical analysis, implemented using Python and Jupyter Notebooks.
