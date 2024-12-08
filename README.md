@@ -1,29 +1,52 @@
-# Applied Statistics Assignment - University of Galway
+# Applied Statistics Assignment - Higher Diploma in Science in Computing (Data Analytics)
 
-This repository contains the work for the Applied Statistics course at the University of Galway. The project is organized into various files and folders to meet the course requirements. Below is an explanation of the contents and structure of the repository.
+This repository contains the solution to the Applied Statistics assignment for the course *Higher Diploma in Science in Computing (Data Analytics)*, delivered by the Applied Technology Unit (ATU) of Galway. The assignment consists of multiple tasks related to statistical analysis, implemented using Python and Jupyter Notebooks.
 
-Sure! Here is the entire README in Markdown format:
+## Repository Structure
 
-# Applied Statistics Assignment - University of Galway
+- `task1.ipynb` - Jupyter notebook for Task 1: **Permutations and Combinations**
+- `task2.ipynb` - Jupyter notebook for Task 2: **Numpy's Normal Distribution**
+- `task3.ipynb` - Jupyter notebook for Task 3: **t-Test Calculation**
+- `task4.ipynb` - Jupyter notebook for Task 4: **ANOVA**
+- `project.ipynb` - Jupyter notebook for the **project**, which involves analyzing the *PlantGrowth* dataset
+- `data/` - Folder containing the dataset used in the final project
+- `img/` - Folder containing images referenced in the Jupyter notebooks (such as plots or charts)
+- `requirements.txt` - Text file listing the Python packages required to run the notebooks
+- `.gitignore` - A standard Git ignore file to exclude unnecessary files from the repository
 
-This repository contains the work for the Applied Statistics course at the University of Galway. The project is organized into various files and folders to meet the course requirements. Below is an explanation of the contents and structure of the repository.
+## Overview
 
-### Files and Folders Overview
+### Task 1: Permutations and Combinations
 
-1. **task.ipynb**  
-   This Jupyter Notebook contains the tasks assigned for the course. Each task is implemented using Python code and follows the guidelines given in the course materials. The notebook is structured in cells that execute code to solve statistical problems, visualize data, and analyze results.
+This task involves calculating the probability that a person, who claims to have the ability to identify which cups of tea had the milk poured first, selects the correct six cups. We also explore the probability of selecting at most one error when guessing which cups contained milk. The task provides an opportunity to apply combinatorial analysis and probability theory to a real-world scenario.
 
-2. **project.ipynb**  
-   This Jupyter Notebook contains the project portion of the assignment. It extends upon the tasks in `task.ipynb` and applies statistical methods to the dataset to address more complex problems or conduct deeper analysis. It may include hypothesis testing, regression models, or advanced data visualization techniques.
+### Task 2: Numpy's Normal Distribution
 
-3. **.gitignore**  
-   This file specifies which files and directories Git should ignore when committing changes. For this project, it is configured to exclude temporary files, compiled Python files, and other non-essential files that should not be tracked by version control.
+In this task, we assess the functionality of `numpy.random.normal()` by generating a sample of 100,000 values. We then use statistical tests, such as the Shapiro-Wilk test, to check if the sample follows a normal distribution. Additionally, a histogram is plotted alongside the theoretical normal distribution.
 
-4. **images/**  
-   This folder contains images that are used within the Jupyter Notebooks (e.g., for visualizations, plots, or example outputs). These images are referenced in the code cells to help explain the analysis or results.
+### Task 3: t-Test Calculation
 
-5. **dataset/**  
-   This folder contains the dataset(s) used in the project. The dataset is essential for completing the analysis and is used across various tasks in the project. The dataset is in CSV format and should be loaded into the Jupyter notebooks for data manipulation and analysis.
+Here, we calculate the t-statistic for a dataset containing the resting heart rates of patients before and after a two-week exercise program. We compare the manually calculated t-statistic to the value provided by the `scipy.stats` library and explain the results in detail.
 
-6. **requirements.txt**  
-   This file lists all the Python dependencies required to run the Jupyter notebooks. To install the necessary packages, use the following command:
+### Task 4: ANOVA
+
+In this task, we simulate three samples using `numpy.random.normal()` and perform a one-way ANOVA test to determine whether there are significant differences between the three groups. We also assess the occurrence of Type II errors by repeating the test 10,000 times. The results of the simulation and an explanation of the findings are provided.
+
+### Final Project: PlantGrowth Dataset Analysis
+
+For the final project, the *PlantGrowth* dataset (from the `Rdatasets` repository) is analyzed. The dataset contains plant weights grouped by different treatment groups. The analysis includes performing t-tests to compare the means of two treatment groups and conducting an ANOVA test to compare the means of three treatment groups. The project explains the assumptions of t-tests and ANOVA, the reasoning for using ANOVA when comparing more than two groups, and interprets the results of the statistical tests.
+
+## Requirements
+
+To run the notebooks, you will need the following Python libraries:
+
+- `numpy`
+- `scipy`
+- `matplotlib`
+- `pandas`
+- `seaborn`
+
+You can install the required dependencies by running:
+
+```bash
+pip install -r requirements.txt
