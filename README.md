@@ -1,24 +1,27 @@
-# Applied Statistics Assignment - Higher Diploma in Science in Computing (Data Analytics)
+<h1 align="center">Applied Statistics  - Tasks and Project</h1>
+<h1 align="center">Higher Diploma in Computer Science with Data Analytics</h1>
+   <p align="center">
+   Cecilia Pastore 
 
-This repository contains the solution to the Applied Statistics assignment for the course *Higher Diploma in Science in Computing (Data Analytics)*, delivered by the Applied Technology Unit (ATU) of Galway. The assignment consists of multiple tasks related to statistical analysis, implemented using Python and Jupyter Notebooks.
+## Description
+
+This repository contains the work required for the subject "Applied Statistics", part of the Higher Diploma in Computer Science with Data Analytics at Atlantic Technological University.
 
 ## Repository Structure
 
-- `task1.ipynb` - Jupyter notebook for Task 1: **Permutations and Combinations**
-- `task2.ipynb` - Jupyter notebook for Task 2: **Numpy's Normal Distribution**
-- `task3.ipynb` - Jupyter notebook for Task 3: **t-Test Calculation**
-- `task4.ipynb` - Jupyter notebook for Task 4: **ANOVA**
-- `project.ipynb` - Jupyter notebook for the **final project**, which involves analyzing the *PlantGrowth* dataset
-- `data/` - Folder containing the dataset used in the final project
-- `img/` - Folder containing images referenced in the Jupyter notebooks (such as plots or charts)
-- `requirements.txt` - Text file listing the Python packages required to run the notebooks
-- `.gitignore` - A standard Git ignore file to exclude unnecessary files from the repository
+1. **tasks.ipynb**: A Jupyter notebook containing solutions to four tasks provided during lectures. These tasks cover various topics of interest discussed in the class.
 
-## Overview
 
 ### Task 1: Permutations and Combinations
 
 This task involves calculating the probability that a person, who claims to have the ability to identify which cups of tea had the milk poured first, selects the correct six cups. We also explore the probability of selecting at most one error when guessing which cups contained milk. 
+
+<details>
+    <summary> Tasks Assignement </summary>
+           <p>
+
+</p>
+</details>
 
 ### Task 2: Numpy's Normal Distribution
 
