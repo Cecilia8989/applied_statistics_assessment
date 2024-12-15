@@ -10,7 +10,7 @@ This repository contains the work required for the subject "Applied Statistics",
 ## Repository Structure  
 
 1. **`tasks.ipynb`**: A Jupyter notebook containing solutions to four applied statistics tasks.  
-2. **`project.ipynb`**: A Jupyter notebook documenting the final project analysis.  
+2. **`project.ipynb`**: A Jupyter notebook documenting the final project.  
 3. **`README.md`**: This file, providing an overview of the repository.  
 4. **`.gitignore`**: File to specify files and directories Git should ignore.  
 5. **`requirements.txt`**: List of Python dependencies required to run the notebooks.  
