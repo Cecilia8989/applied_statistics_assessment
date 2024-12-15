@@ -81,18 +81,16 @@ In this task, we simulate three samples using `numpy.random.normal()` and perfor
 
 
 <details>
-    <summary> Tasks Assignement </summary>
-           <p>
-              
-In this test we will estimate the probability of committing a type II error in specific circumstances. To begin, create a variable called no_type_ii and set it to 0.
+  <summary>Task assignement</summary>
+<br>
 
-Now use a loop to perform the following test 10,000 times.
-
-Use numpy.random.normal to generate three samples with 100 values each. Give each a standard deviation of 0.1. Give the first sample a mean of 4.9, the second a mean of 5.0, and the third a mean of 5.1.
-
-Perform one-way anova on the three samples and add 1 to no_type_ii whenever a type II error occurs.
-
-Summarize and explain your results.
+>In this test we will estimate the probability of committing a type II error in specific circumstances. To begin, create a variable called no_type_ii and set it to 0.
+>Now use a loop to perform the following test 10,000 times:
+>
+>1. Use numpy.random.normal to generate three samples with 100 values each. Give each a standard deviation of 0.1. Give the first sample a mean of 4.9, the second a mean of 5.0, and the third a mean of 5.1.
+>2. Perform one-way anova on the three samples and add 1 to no_type_ii whenever a type II error occurs.
+>
+>Summarize and explain your results.
 
 </p>
 </details>
@@ -126,6 +124,7 @@ To run the notebooks, ensure you have the required Python libraries installed. I
 
 ```bash  
 pip install -r requirements.txt
+``` 
 
 Alternatevely, you can To install them you can use pip install in a terminal, or command prompt, followed by the librarys:
 
